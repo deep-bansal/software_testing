@@ -1,0 +1,26 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --file tests/user.test.js --file tests/book.test.js --file tests/transaction.test.js",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mocha": "^10.8.2",
+    "mongoose": "^8.8.2"
+  }
+}
